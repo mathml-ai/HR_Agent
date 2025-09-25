@@ -260,7 +260,7 @@ def hybrid_retrieval_bm25(vectorstore, chunks, query, k: int = 5, alpha: float =
 # -------------------------------
 # App UI
 # -------------------------------
-st.set_page_config(page_title="Deployable Agent System", layout="wide")
+st.set_page_config(page_title="ChickoHR", layout="wide")
 st.title("Deployable Agent System")
 
 # Sidebar: Load FAISS index
